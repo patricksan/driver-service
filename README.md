@@ -1,5 +1,9 @@
 # Getting Started
 
+## Status
+Travis:
+https://travis-ci.com/patricksan/driver-service.svg?branch=master
+
 ### APIs
 These are the available APIS
 - GET http://localhost:8080/drivers
