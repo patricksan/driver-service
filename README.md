@@ -2,7 +2,7 @@
 
 ## Status
 Travis:
-https://travis-ci.com/patricksan/driver-service.svg?branch=master
+![](https://travis-ci.com/patricksan/driver-service.svg?branch=master)
 
 ### APIs
 These are the available APIS
