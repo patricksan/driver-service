@@ -42,7 +42,8 @@ public class DriverController {
                                                @Valid @RequestBody Driver driverDetails) throws NotFoundException {
         Driver driver = driverRepository.findById(driverId)
                                         .orElseThrow(() -> new NotFoundException("Driver not found on :: " + driverId));
-        driver.setName(driverDetails.getName());
+        driver.setFirstName(driverDetails.getFirstName());
+        driver.setLastName(driverDetails.getLastName());
         return ResponseEntity.ok(driverRepository.save(driver));
     }
 
